@@ -1,0 +1,19 @@
+[project]
+name = "jodie-optimiser"
+version = "0.1.0"
+description = "building a simple optimiser"
+authors = [
+    {name = "jodiestamp",email = "jodie.stamp@kaluza.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "pulp (>=2.9.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
